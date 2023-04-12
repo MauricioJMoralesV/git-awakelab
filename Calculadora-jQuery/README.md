@@ -33,3 +33,4 @@ EQUIPO:
 
  ENLACE AL REPOSITORIO PRINCIPAL DE TRABAJO:
  Aracily Morales -> https://github.com/aaracily/Calculadora-jQuery.git
+ Mauricio Morales -> https://github.com/MauricioJMoralesV/git-awakelab.git
