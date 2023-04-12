@@ -1,0 +1,23 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 a {
+  text-decoration: none;
+}
+
+h1 a:hover {
+  color: #dc143c !important;
+}
+
+.link-person {
+  text-decoration: none;
+}
+
+.link-person:hover {
+  color: #dc143c !important;
+}
+
+.col.text-center.fs-6 {
+  font-size: 0.7rem !important;
+}

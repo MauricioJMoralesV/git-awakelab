@@ -1,0 +1,39 @@
+/* Establecer imagen de fondo */
+body {
+    background-image: url('imagen-de-fondo.jpg');
+}
+h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: #FF5733;
+}
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #e8c0f9;
+}
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: #7fffd4;
+}
+#p1{
+    font-family: Verdana, sans-serif;
+    color: #fefefe; 
+}
+#p2{
+    font-family:'Courier New', Courier, monospace;
+    color: #fefefe; 
+}
+#p3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fefefe; 
+}
+#tiemporestante {
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #fefefe;
+    border: 5px solid #9B59B6; /* Púrpura */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px; /* Espacio interno para contenido */
+    
+}

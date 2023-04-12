@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 11</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="mostrarFecha.js"></script>
+</head>
+<body class="container">
+    
+    <header>
+        <div>
+            <h1>Página Fechas indicadas</h1>
+        </div>
+    </header>
+    <div class="row">
+        <div class="col-5">
+            <p id="p1"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi omnis aut ratione 
+            aliquam reprehenderit inventore quasi ab ipsum dignissimos quas,
+            doloribus sequi nemo hic reiciendis voluptatibus quaerat, suscipit laudantium? Quo.
+            Sunt iste, rerum dolores cumque delectus debitis necessitatibus hic optio nulla modi 
+            quos quo tempora accusantium animi? Vel temporibus rem quibusdam vitae fuga. Totam, quod perspiciatis. 
+            Voluptate consectetur earum esse!</p>
+        </div>
+        <div class="col-5">
+            <p id="p2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Ea non dolores modi eius voluptatem officia labore blanditiis, 
+            maxime architecto nobis consequatur, 
+            cumque aspernatur exercitationem quo consectetur voluptatum magni, unde dignissimos.</p>
+        </div>
+        <div class="col-2">
+            <p id="p3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Asperiores ducimus vero aliquam molestiae dolorum reiciendis hic fugiat sint illum nesciunt eligendi expedita corrupti, 
+                dicta.
+            </p>
+        </div>
+    </div>
+    <footer>
+        <h2>¿Desea ver nuevamente fecha y hora actual? Solo haga click en el siguiente botón y mostrará una alerta con la fecha y hora actual</h2>
+        <div class="row" style="text-align: center;">
+            <button id="boton" class="btn btn-outline-danger" onclick="mostrarFecha();"> <strong> HAGA CLICK AQUI PARA VER LA FECHA Y HORA ACTUAL!!! </strong></button>
+        </div>
+        <div>
+            <h3> Tiempo para que finalice el año: </h3>
+        </div>
+        <div id="tiemporestante"></div>
+    </footer>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>  
+
+</body>
+</html>
